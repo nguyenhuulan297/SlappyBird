@@ -8,10 +8,9 @@ public class LogSpawnerScrip : MonoBehaviour
     public float heightOffset;
     void Start()
     {
-        //SpawnLog();
+        SpawnLog();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (timer < spawnRate)
