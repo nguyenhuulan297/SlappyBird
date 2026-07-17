@@ -11,6 +11,6 @@ public class LogMoveSrip : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = transform.position + (Vector3.left * moveSpeedLog);
+        transform.position += Vector3.left * moveSpeedLog * Time.deltaTime;
     }
 }
